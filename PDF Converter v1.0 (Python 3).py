@@ -9,11 +9,8 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 import PyPDF2
 import img2pdf 
 from PIL import Image 
-# gradient with python
 
 
-def f():
-	print('button working')
 
 def pdfconvert(pdf_path,img_path):
     image = Image.open(img_path) 
